@@ -1,6 +1,6 @@
 # RE: ATS3603 - SOC Reverse Engineering
 
-## 📖 Branch = Actions Pad Product Tool (APPT)
+## 📒 Branch - Actions Pad Product Tool (APPT)
 
 **Actions Pad Product Tool** lets you flash or install the .fw, .fwu, or .bin based firmware on ADFU Devices (ATM processor).
 
