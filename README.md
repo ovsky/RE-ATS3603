@@ -1,10 +1,13 @@
 # RE: ATS3603 - SOC Reverse Engineering
 
-## 📒 Branch - Actions Pad Product Tool (APPT)
+## 📒 Branch - Video Product Tool (VPT)
 
-**Actions Pad Product Tool** lets you flash or install the .fw, .fwu, or .bin based firmware on ADFU Devices (ATM processor).
+**Video Product Tool** lets you flash or install the .fw, .fwu, or .bin based firmware on ADFU Devices (ATM processor).
 
-APPT Page: https://ihax.io/actions-pad-product-tool/
+Video Product Tool is similar to APPT but have been designed especially for the old devices. 
+
+It has more visible source and scripts (usefull for hardware and software diagnosis) but may be non-compatible with modern OS=es.
+
 
 ## 📖 Repository
 
