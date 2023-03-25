@@ -1,7 +1,7 @@
 # RE: ATS3603 - SOC Reverse Engineering
 
 
-## 📖 Branch = Actions SDK
+## 📒 Branch - Actions SDK
 
 **Actions SOC SDK** allows you to create single apps, modify and build base UCOS OS or compile your custom code. 
 
