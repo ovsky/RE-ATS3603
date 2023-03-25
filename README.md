@@ -18,6 +18,8 @@ SDK: https://github.com/ovsky/RE-ATS3603/tree/tools/actions-sdk
 
 APPT: https://github.com/ovsky/RE-ATS3603/tree/tools/actions-appt
 
+VPT: https://github.com/ovsky/RE-ATS3603/tree/tools/video-product-tool
+
 
 ## 🖥️ Device Information
 
