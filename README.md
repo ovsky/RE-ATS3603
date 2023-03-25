@@ -12,6 +12,13 @@ This repository contains many knowledge, works and everything needed to dump and
 
 Especially trials to create pure OS/2 and Linux distributions for OS / 2 - UCOS ATS SOC-devices.
 
+#### Development Resources:
+
+SDK: https://github.com/ovsky/RE-ATS3603/tree/tools/actions-sdk
+
+APPT: https://github.com/ovsky/RE-ATS3603/tree/tools/actions-appt
+
+
 ## 🖥️ Device Information
 
 ![Schematic](pwkdy_shematic.png)
@@ -61,7 +68,7 @@ There is obviously no digitizer, but if you want to mount one - there are also n
 
  If you don`t care about the costs and want a more complex solution, you can choose one from the leading digitizer producers like *Yunlea* or *Goodix*.
 
-## 🧮 Reversing the MBREC Flash Dump
+## 🧮 Reverse Engineering the MBREC Flash Dump
 
 <details>
 
