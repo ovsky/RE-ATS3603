@@ -1,0 +1,117 @@
+[Version] 
+Signature = "$Chicago$" 
+provider  = %manufacturer% 
+;Month must be in two digit format.
+DriverVer = 08/08/2013,2.0.0.3 
+Class=USB 
+ClassGUID={36FC9E60-C465-11CF-8056-444553540000} 
+CatalogFile=adfuwinusb.cat
+
+[Manufacturer] 
+%manufacturer%=Actions,NTx86,NTamd64
+
+[Actions] 
+%USB\VID_10D6&PID_10D6.DeviceDesc%=WINUSB_DEV, USB\VID_10D6&PID_10D6
+%USB\VID_10D6&PID_FF76.DeviceDesc%=WINUSB_DEV, USB\VID_10D6&PID_FF76
+%USB\VID_10D6&PID_FE02.DeviceDesc%=WINUSB_DEV, USB\VID_10D6&PID_FE02
+
+[Actions.NTx86] 
+%USB\VID_10D6&PID_10D6.DeviceDesc%=WINUSB_DEV, USB\VID_10D6&PID_10D6
+%USB\VID_10D6&PID_FF76.DeviceDesc%=WINUSB_DEV, USB\VID_10D6&PID_FF76
+%USB\VID_10D6&PID_FE02.DeviceDesc%=WINUSB_DEV, USB\VID_10D6&PID_FE02
+
+[Actions.NTamd64] 
+%USB\VID_10D6&PID_10D6.DeviceDesc%=WINUSB_DEV, USB\VID_10D6&PID_10D6
+%USB\VID_10D6&PID_FF76.DeviceDesc%=WINUSB_DEV, USB\VID_10D6&PID_FF76
+%USB\VID_10D6&PID_FE02.DeviceDesc%=WINUSB_DEV, USB\VID_10D6&PID_FE02
+
+
+;-------------------------------------------
+[WINUSB_DEV] 
+;AddReg = winusb_add_reg_hw 
+Include=winusb.inf
+Needs=WINUSB.NT
+
+[WINUSB_DEV.Services] 
+;AddService = winusb, 0x00000002, winusb_add_service 
+Include=winusb.inf
+AddService=WinUSB,0x00000002,WinUSB_ServiceInstall
+
+-------------------------------------------
+[WinUSB_ServiceInstall]
+DisplayName     = %WinUSB_SvcDesc%
+ServiceType     = 1
+StartType       = 3
+ErrorControl    = 1
+ServiceBinary   = %12%\winusb.sys
+
+
+[WINUSB_DEV.Wdf]
+KmdfService = WINUSB, WINUSB_wdfsect
+;UMDFSERVICE required in section [WINUSB_DEV.NT.Wdf]
+;UmdfService=UMDFSkeleton,UMDFSkeleton_Install
+;UmdfServiceOrder=UMDFSkeleton
+
+[WINUSB_wdfsect]
+KmdfLibraryVersion = 1.9
+
+
+[WINUSB_DEV.HW] 
+AddReg = winusb_add_reg_hw 
+;Include=WINUSB.INF ; Import sections from WINUSB.INF
+;Needs=WINUSB.NT ; Run the CopyFiles & AddReg directives
+
+
+[winusb_add_reg_hw] 
+; replace this with you own GUID !!! 
+HKR,,DeviceInterfaceGUIDs, 0x10000,"{FF7B846F-B0A3-45C0-B0FC-D8122086996D}"
+
+
+;[WINUSB_DEV.NT] 
+;AddReg = winusb_add_reg_hw 
+;Include=WINUSB.INF ; Import sections from WINUSB.INF
+;Needs=WINUSB.NT ; Run the CopyFiles & AddReg directives
+
+;[6]
+[USB_Install.CoInstallers]
+AddReg=CoInstallers_AddReg
+CopyFiles=CoInstallers_CopyFiles
+
+[CoInstallers_AddReg]
+HKR,,CoInstallers32,0x00010000,"WdfCoInstaller01009.dll,WdfCoInstaller","WinUSBCoInstaller2.dll"
+
+[CoInstallers_CopyFiles]
+WinUSBCoInstaller2.dll
+WdfCoInstaller01009.dll
+
+[DestinationDirs]
+CoInstallers_CopyFiles=11
+
+; ================= Source Media Section =====================
+;[7]
+
+[SourceDisksNames]
+1 = %DISK_NAME%,,,\i386
+2 = %DISK_NAME%,,,\amd64
+3 = %DISK_NAME%,,,\ia64
+
+[SourceDisksFiles.x86]
+WinUSBCoInstaller2.dll=1
+WdfCoInstaller01009.dll=1
+
+[SourceDisksFiles.amd64]
+WinUSBCoInstaller2.dll=2
+WdfCoInstaller01009.dll=2
+
+[SourceDisksFiles.ia64]
+WinUSBCoInstaller2.dll=3
+WdfCoInstaller01009.dll=3
+
+[Strings] 
+manufacturer = "Actions Semiconductor Co., LTD"
+WinUSB_SvcDesc="Actions USB 2.0 (HS) WinUSB Device"
+DISK_NAME="Actions USB 2.0 (HS) WinUSB Device"
+ClassName="MyDeviceClass"
+USB\VID_10D6&PID_10D6.DeviceDesc = "Actions USB 2.0 (HS) WinUSB Device"
+USB\VID_10D6&PID_FF76.DeviceDesc = "Actions USB 2.0 (HS) WinUSB Device"
+USB\VID_10D6&PID_FE02.DeviceDesc = "Actions USB 2.0 (HS) WinUSB Device"
