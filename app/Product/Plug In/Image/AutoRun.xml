@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="280,105">
+    <VerticalLayout width="280" height="110">
+        <HorizontalLayout width="280" height="22">
+            <Option name="OptPlug" float="true" pos="5,4,0,0" width="13" height="13" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="checkbox0.png" selectedimage="checkbox1.png" />
+            <Label name="LbTitle" text="AutoRun" tooltip="101" userdata="100" float="true" pos="25,2,0,0" width="215" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" />
+            <Option name="OptExpand" float="true" pos="250,4,0,0" width="14" height="14" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="collapse.png" selectedimage="expand.png" />
+        </HorizontalLayout>
+        <HorizontalLayout width="280" height="6">
+            <Label name="Line" float="true" pos="0,0,0,0" width="270" height="2" bkimage="line.bmp" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        </HorizontalLayout>
+        <HorizontalLayout width="270" height="25">
+            <Label name="LbVol" text="Volume" userdata="109" tooltip="113" float="true" pos="15,0,0,0" width="55" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+            <Edit name="EdtVol" tooltip="113" maxchar="32" bordersize="1" float="true" pos="75,0,0,0" width="195" height="20" bkcolor="#FFFFFFFF" bordercolor="#00C0C0C0" focusbordercolor="#0000FF00" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        </HorizontalLayout>
+        <HorizontalLayout width="270" height="25">
+            <Button name="BtnPath" text="Directory" userdata="102" bordersize="1" float="true" pos="15,0,0,0" width="55" height="20" bordercolor="#00C0C0C0" focusbordercolor="#0000FF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+            <Edit name="EdtPath" bordersize="1" float="true" pos="75,0,0,0" width="195" height="20" bkcolor="#FFECECF4" bordercolor="#00C0C0C0" focusbordercolor="#00C0C0C0" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" readonly="true" maxchar="32" nativebkcolor="#FFECECF4" />
+        </HorizontalLayout>
+        <HorizontalLayout width="270" height="25">
+            <Button name="BtnMake" text="Make" userdata="104" bordersize="1" float="true" pos="15,0,0,0" width="55" height="20" bordercolor="#00C0C0C0" focusbordercolor="#0000FF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+            <Label name="LbTip" float="true" pos="75,0,0,0" width="195" height="20" textpadding="0,4,0,0" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" font="2" endellipsis="true" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

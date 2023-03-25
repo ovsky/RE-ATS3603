@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="280,165">
+    <VerticalLayout width="280" height="110">
+        <HorizontalLayout width="280" height="22">
+            <Option name="OptPlug" float="true" pos="5,4,0,0" width="13" height="13" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="checkbox0.png" selectedimage="checkbox1.png" />
+            <Label name="LbTitle" text="HideDisk" tooltip="301" userdata="300" float="true" pos="25,2,0,0" width="215" height="18" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" />
+            <Option name="OptExpand" float="true" pos="250,4,0,0" width="14" height="14" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="collapse.png" selectedimage="expand.png" />
+        </HorizontalLayout>
+        <HorizontalLayout width="280" height="6">
+            <Label name="Line" float="true" pos="0,0,0,0" width="270" height="2" bkimage="line.bmp" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        </HorizontalLayout>
+        <HorizontalLayout width="270" height="25">
+            <Label name="LbVol" text="Volume" userdata="302" tooltip="315" float="true" pos="15,0,0,0" width="55" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+            <Edit name="EdtVol" tooltip="315" maxchar="10" bordersize="1" float="true" pos="75,0,0,0" width="195" height="20" bkcolor="#FFFFFFFF" bordercolor="#00C0C0C0" focusbordercolor="#0000FF00" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        </HorizontalLayout>
+        <HorizontalLayout width="270" height="25">
+            <Label name="LbCap" text="Cap" userdata="304" float="true" pos="15,0,0,0" width="55" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+            <Edit name="EdtCap" bordersize="1" float="true" pos="75,0,0,0" width="95" height="20" bkcolor="#FFFFFFFF" bordercolor="#00C0C0C0" focusbordercolor="#0000FF00" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+            <Label name="LbUnit" text="MBytes" userdata="311" float="true" pos="170,0,0,0" width="80" height="20" textpadding="5,0,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        </HorizontalLayout>
+        <HorizontalLayout width="270" height="25">
+            <Button name="BtnPath" text="Directory" userdata="303" bordersize="1" float="true" pos="15,0,0,0" width="55" height="20" bordercolor="#00C0C0C0" focusbordercolor="#0000FF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+            <Edit name="EdtPath" bordersize="1" float="true" pos="75,0,0,0" width="195" height="20" bkcolor="#FFECECF4" bordercolor="#00C0C0C0" focusbordercolor="#00C0C0C0" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" readonly="true" nativebkcolor="#FFECECF4" />
+        </HorizontalLayout>
+        <HorizontalLayout width="270" height="20">
+            <Label name="LbFS" text="FS" userdata="314" float="true" pos="15,0,0,0" width="55" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+            <Option name="RbFAT16" float="true" pos="75,4,0,0" width="13" height="13" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" normalimage="radiobox0.png" selectedimage="radiobox1.png" />
+            <Label name="LbFAT16" text="FAT16" userdata="312" float="true" pos="90,0,0,0" width="50" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+            <Label name="LbFAT32" text="FAT32" userdata="313" float="true" pos="155,0,0,0" width="50" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+            <Option name="RbFAT32" float="true" pos="140,4,0,0" width="13" height="13" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" normalimage="radiobox0.png" selectedimage="radiobox1.png" />
+        </HorizontalLayout>
+        <HorizontalLayout width="270" height="20">
+            <Option name="OptSort" float="true" pos="75,4,0,0" width="13" height="13" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" normalimage="checkbox0.png" selectedimage="checkbox1.png" />
+            <Label name="LbSort" text="sort" userdata="305" float="true" pos="90,0,0,0" width="180" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        </HorizontalLayout>
+        <HorizontalLayout width="270" height="25">
+            <Label name="LbTip" float="true" pos="15,0,0,0" width="255" height="20" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" font="2" endellipsis="true" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

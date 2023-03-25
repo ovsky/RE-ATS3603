@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="400,185">
+    <Container name="SelectDRM" bordersize="1" width="400" height="400" bkimage="bk.bmp">
+        <Label name="LbTitle" text="123" userdata="120" bordersize="1" float="true" pos="0,0,0,0" width="400" height="30" bkimage="title.bmp" textpadding="10,0,0,0" textcolor="#005A5A5A" disabledtextcolor="#FFA7A6AA" font="0" />
+        <Button name="BtnClose" float="true" pos="374,7,0,0" width="16" height="15" bkimage="close.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        <Label name="LbPK" text="选择private key文件" userdata="121" float="true" pos="15,35,0,0" width="375" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" />
+        <Edit name="EdtPK" bordersize="1" float="true" pos="15,55,0,0" width="345" height="20" bkcolor="#FFFFFFFF" bordercolor="#00808080" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" readonly="true" />
+        <Button name="BtnPK" text="..." bordersize="1" float="true" pos="362,55,0,0" width="28" height="20" focusbordercolor="#0000FF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" align="center" />
+        <Label name="LbDT" text="选择devcert template文件" userdata="122" float="true" pos="15,85,0,0" width="375" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" />
+        <Edit name="EdtDT" bordersize="1" float="true" pos="15,105,0,0" width="345" height="20" bkcolor="#FFFFFFFF" bordercolor="#00808080" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" readonly="true" />
+        <Button name="BtnDT" text="..." bordersize="1" float="true" pos="362,105,0,0" width="28" height="20" focusbordercolor="#0000FF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" align="center" />
+        <Control bordersize="1" float="true" pos="10,135,0,0" width="385" height="1" bordercolor="#00808080" focusbordercolor="#00808080" />
+        <Button name="BtnCancel" text="Cancel" userdata="7" bordersize="1" float="true" pos="201,149,0,0" width="70" height="25" focusbordercolor="#0000FF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+        <Button name="BtnOK" text="OK" userdata="6" bordersize="1" float="true" pos="299,150,0,0" width="90" height="25" focusbordercolor="#00808080" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" align="center" />
+    </Container>
+</Window>

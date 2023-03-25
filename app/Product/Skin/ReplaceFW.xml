@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="460,300">
+    <Container name="ReplaceFW" bordersize="1" width="460" height="300" bkimage="bk.bmp">
+        <Label name="LbTitle" text="123" userdata="20" bordersize="1" float="true" pos="0,0,0,0" width="460" height="30" bkimage="title.bmp" textpadding="10,5,0,0" textcolor="#005A5A5A" disabledtextcolor="#FFA7A6AA" font="0" />
+        <Button name="BtnClose" float="true" pos="436,7,0,0" width="16" height="15" bkimage="close.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+        <Label name="LbCurrent" text="Current Firmware Information" userdata="12" float="true" pos="20,35,0,0" width="195" height="20" bkimage="bk0.bmp" textpadding="0,7,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" align="center" />
+        <Label name="LbNew" text="New Firmware Information" userdata="13" float="true" pos="250,34,0,0" width="190" height="20" textpadding="0,7,0,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" align="center" />
+        <Edit name="EdtPath" bordersize="1" float="true" pos="10,220,0,0" width="360" height="20" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" readonly="true" />
+        <Button name="BtnPath" text="选择新固件" userdata="10" bordersize="1" float="true" pos="372,219,0,0" width="77" height="20" focusbordercolor="#0000FF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" align="center" />
+        <Button name="BtnOK" text="OK" userdata="11" bordersize="1" float="true" pos="375,265,0,0" width="70" height="25" focusbordercolor="#0000FF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1" align="center" />
+        <Button name="BtnCancel" text="Cancel" userdata="7" bordersize="1" float="true" pos="280,265,0,0" width="70" height="25" focusbordercolor="#0000FF00" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="center" />
+        <Control bordersize="1" float="true" pos="10,60,0,0" width="215" height="140" bordercolor="#00808080" focusbordercolor="#00808080" />
+        <Control bordersize="1" float="true" pos="240,60,0,0" width="210" height="140" bordercolor="#00808080" focusbordercolor="#00808080" />
+        <Label name="LbCurName" text="Product Name" userdata="14" float="true" pos="20,70,0,0" width="195" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        <Label name="LbCurProductor" text="Productor" userdata="15" float="true" pos="20,95,0,0" width="195" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        <Label name="LbCurVID" text="VID" userdata="16" float="true" pos="20,120,0,0" width="195" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        <Label name="LbCurPID" text="PID" userdata="17" float="true" pos="20,145,0,0" width="195" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        <Label name="LbCurVer" text="Version" userdata="18" float="true" pos="20,170,0,0" width="195" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        <Label name="LbNewName" text="Product Name" userdata="14" float="true" pos="250,70,0,0" width="190" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        <Label name="LbNewProductor" text="Productor" userdata="15" float="true" pos="250,95,0,0" width="190" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        <Label name="LbNewVID" text="VID" userdata="16" float="true" pos="250,120,0,0" width="190" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        <Label name="LbNewPID" text="PID" userdata="17" float="true" pos="250,145,0,0" width="190" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        <Label name="LbNewVer" text="Version" userdata="18" float="true" pos="250,170,0,0" width="190" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" />
+        <Control bordersize="1" float="true" pos="10,210,0,0" width="440" height="1" bordercolor="#00808080" focusbordercolor="#00808080" />
+        <Control bordersize="1" float="true" pos="10,250,0,0" width="440" height="1" bordercolor="#00808080" focusbordercolor="#00808080" />
+    </Container>
+</Window>

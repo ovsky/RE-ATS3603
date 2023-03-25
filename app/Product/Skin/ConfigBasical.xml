@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="280,110">
+  <VerticalLayout width="280" height="155">
+    <HorizontalLayout width="280" height="22">
+      <Label name="BasicalLogo" float="true" pos="0,0,0,0" width="20" height="20" bkimage="config.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"/>
+      <Label name="Caption" text="Basical Configuration" userdata="80" float="true" pos="25,0,0,0" width="215" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0"/>
+    </HorizontalLayout>
+    <HorizontalLayout width="280" height="4">
+      <Label name="Line" float="true" pos="0,0,0,0" width="270" height="2" bkimage="line.bmp" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"/>
+    </HorizontalLayout>
+    <HorizontalLayout width="270" height="20">
+      <Option name="PRODUCTION" userdata="lbproduction" float="true" pos="15,4,0,0" width="13" height="13" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="checkbox0.png" selectedimage="checkbox1.png"/>
+      <Label name="LbProduction" text="Download Firmware" userdata="82" float="true" pos="35,0,0,0" width="215" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1"/>
+    </HorizontalLayout>
+    <HorizontalLayout width="270" height="20">
+      <Option name="FLASH_ERASE" userdata="lbflasherase" float="true" pos="15,4,0,0" width="13" height="13" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="checkbox0.png" selectedimage="checkbox1.png"/>
+      <Label name="LbFlashErase" text="Erase Flash" userdata="83" float="true" pos="35,0,0,0" width="215" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1"/>
+    </HorizontalLayout>    
+    <HorizontalLayout width="270" height="20">
+      <Option name="DRM_PARAM" userdata="LbDRM" float="true" pos="15,4,0,0" width="13" height="13" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="checkbox0.png" selectedimage="checkbox1.png"/>
+      <Label name="LbDRM" text="DRM File" userdata="86" float="true" pos="35,0,0,0" width="215" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1"/>
+    </HorizontalLayout>
+    <HorizontalLayout width="270" height="20">
+      <Option name="RESTART" userdata="LbRestart" float="true" pos="15,4,0,0" width="13" height="13" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="checkbox0.png" selectedimage="checkbox1.png"/>
+      <Label name="LbRestart" text="Restart" userdata="89" float="true" pos="35,0,0,0" width="215" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="1"/>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

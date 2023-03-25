@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="350,100">
+    <Container bordersize="1" width="350" height="100" bkimage="bk.bmp">
+        <Label name="LbPreRead" float="true" pos="25,35,0,0" width="300" height="30" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+    </Container>
+</Window>

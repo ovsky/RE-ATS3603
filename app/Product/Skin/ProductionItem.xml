@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="452,35" sizebox="4,4,6,6" caption="0,0,0,30">
+    <Container width="452" height="30">
+        <Label name="Sequence" float="true" pos="0,0,0,0" width="37" height="30" bkimage="device_seq.png" textcolor="#005A5A5A" disabledtextcolor="#FFA7A6AA" font="0" align="center" />
+        <Control name="Back" float="true" pos="37,0,0,0" width="415" height="30" bkimage="device_bk.png" />
+        <Progress name="Progress" float="true" pos="42,3,0,0" width="363" height="24" bkimage="progress.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" min="0" max="100" value="0" hor="true" />
+        <Text name="Status" float="true" pos="45,5,0,0" width="305" height="20" textpadding="2,3,2,0" textcolor="#00FFFBF0" font="0" align="wrap" />
+        <Text name="Percent" text="50%" float="true" pos="360,5,0,0" width="40" height="20" textpadding="2,3,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="rightwrap" />
+        <Text name="Timer" text="00:45" float="true" pos="410,5,0,0" width="40" height="20" textpadding="2,4,2,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" font="2" align="centerwrap" />
+    </Container>
+</Window>

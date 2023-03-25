@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window>
+  <L409 name="english">
+    <Font name="Arial" size="14" bold="true" italic="false" />
+    <Font name="Arial" size="13" bold="true" italic="false" />
+    <Font name="Arial" size="12" bold="false" italic="false" />
+  </L409>
+  <L804 name="简体中文">
+    <Font name="宋体" size="14" bold="true" italic="false" />
+    <Font name="宋体" size="13" bold="true" italic="false" />
+    <Font name="宋体" size="12" bold="false" italic="false" />
+  </L804>
+  <L404 name="繁体中文">
+    <Font name="宋体" size="14" bold="true" italic="false" />
+    <Font name="宋体" size="13" bold="true" italic="false" />
+    <Font name="宋体" size="12" bold="false" italic="false" />
+  </L404>
+</Window>
