@@ -1,18 +1,23 @@
-# Actions ATS3603 - Reverse Engineering
+# RE: ATS3603 - SOC Reverse Engineering
 
-### Repository
+## 📖 Repository
 
-Actions Semiconductor ATS3603 SOC - Handhelds Reverse Engineering and Custom SDK
+Actions Semiconductor **ATS3603 SOC** - Handhelds Reverse Engineering and Custom SDK
 
 ![Device](pwkd_min.jpeg)
+
 > V90 (ATS3603) running custom OS / CC: Przemysław Orłowski & Steve Benway
 
 This repository contains many knowledge, works and everything needed to dump and build new OS or tools for ATS3603-based devices.
 
-### Device Information
+Especially trials to create pure OS/2 and Linux distributions for OS / 2 - UCOS ATS SOC-devices.
+
+## 🖥️ Device Information
 
 ![Schematic](pwkdy_shematic.png)
+
 > PowKiddy V90 body schematic / CC: PowKiddy
+
 
 The devices are "handhelds", branded as ***V90***, ***X20 Mini*** and ***Powkiddy J6/X6***. They are sold under different names, designs and form factors, but always with same hardware.
 
@@ -21,7 +26,7 @@ I pay attention to this handheld because of its amazing price-quality-components
 The biggest trade-off in the device`s price is probably the used released in year 2006 processor: **Actions ATS3603**... 
 which makes it weird, but also very interesting!
 
-### Hardware Specification
+## 🗜️ Hardware Specification
 
 The Actions ATS3603 handhelds may look different, but inside they are almost the same.
 
@@ -43,7 +48,7 @@ The Informations that we have obtained:
 As usual not a lot is known about the internal of this SOC, some
 progress about [reversing its boot process](mbrec.md) are in the way.
 
-### Display 
+## 🟦 Display 
 
 The display units used in the Actions handhelds are technically always the same.
 
@@ -56,7 +61,10 @@ There is obviously no digitizer, but if you want to mount one - there are also n
 
  If you don`t care about the costs and want a more complex solution, you can choose one from the leading digitizer producers like *Yunlea* or *Goodix*.
 
-# Reversing the MBREC Flash Dump
+## 🧮 Reversing the MBREC Flash Dump
+
+<details>
+
 
 The flash dump is analyzed has the following md5
 
@@ -451,11 +459,17 @@ version of ``SDK`` used to build the system.
 
  - https://github.com/Pachouli/2819p
 
+</details>
+
 # The custom OS/2 & UCOS Builds: 
-### Powkiddy-based:
+
+### Linux-based:
+
+SOON TM - testing stage
+
 ### OS/2-based:
 
+https://github.com/ovsky/RE-Actions-ATS3603/releases/tag/OS-2-1.0
 
-I will put here links for my custom prebuilt, modified version of OS-es for the Actions Handeld when I will be done with testing it. 
+Custom prebuilt, modified version of PK OS/2 for the Actions Handelds.
 
-SOON TM
