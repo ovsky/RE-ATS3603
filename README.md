@@ -72,8 +72,6 @@ There is obviously no digitizer, but if you want to mount one - there are also n
 
 ## 🧮 Reverse Engineering the MBREC Flash Dump
 
-<details>
-
 
 The flash dump is analyzed has the following md5
 
@@ -467,8 +465,6 @@ It looks for ``/mnt/udisk/us227a.upg``, probably the code indicates the specific
 version of ``SDK`` used to build the system.
 
  - https://github.com/Pachouli/2819p
-
-</details>
 
 # The custom OS/2 & UCOS Builds: 
 
